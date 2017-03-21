@@ -1,0 +1,32 @@
+{
+    "name": "carousel/queue",
+    "type": "library",
+    "description": "Simple queue service for php projects",
+    "keywords": [
+        "queue service"
+    ],
+    "homepage": "https://github.com/carousel/queue",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Miroslav Trninic",
+            "email": "miroslav.trninic@gmail.com",
+            "homepage": "http://larabal.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Carousel\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
+
